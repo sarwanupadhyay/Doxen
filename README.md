@@ -45,7 +45,7 @@ MIT License - see [LICENSE] for details
 
 ## Contact
 
-For questions or feedback, reach out at [sarwanupadhyay19@gmail,com] or [borasarthak275@gmail.com].
+For questions or feedback, reach out at [sarwanupadhyay19@gmail.com] or [borasarthak275@gmail.com].
 
 ---
 
