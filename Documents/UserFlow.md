@@ -29,7 +29,6 @@ This document outlines the user journey through the Doxen AI-Powered BRD Generat
 ### 3. Dashboard
 **Projects Overview**
 - View all existing projects
-- See project status (draft, in progress, completed)
 - **User Actions:**
   - Create new project → Enter project details (name, description)
   - Select existing project → Open Project Workspace
@@ -42,7 +41,6 @@ Main working area with multiple tabs and sections
 - Upload documents (PDF, DOCX, TXT)
 - Paste text content or meeting transcripts
 - Import Slack channel messages
-- Add email threads
 
 **Process:**
 1. Select source type
@@ -57,10 +55,10 @@ Main working area with multiple tabs and sections
 3. Identifies and categorizes requirements:
    - Functional Requirements
    - Non-Functional Requirements
-   - Business Rules
-   - User Stories
+   - Constraints
+   - Stakeholders
 4. Each requirement linked to its source excerpt
-5. Confidence score assigned to each requirement
+5. Confidence score assigned to each requirement in term of percentage.
 
 **View Results:**
 - Requirements list by category
@@ -145,7 +143,7 @@ Extract Requirements → Generate BRD
 
 ---
 
-## Decision Points
+# Decision Points
 
 ### At Authentication
 - New user or returning user?
