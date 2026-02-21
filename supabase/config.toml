@@ -1,0 +1,22 @@
+project_id = "qmtswgummbvhlxpixhxf"
+
+[functions.process-sources]
+verify_jwt = false
+
+[functions.generate-brd]
+verify_jwt = false
+
+[functions.refine-brd]
+verify_jwt = false
+
+[functions.slack-oauth]
+verify_jwt = false
+
+[functions.slack-import]
+verify_jwt = false
+
+[functions.gmail-oauth]
+verify_jwt = false
+
+[functions.gmail-import]
+verify_jwt = false
