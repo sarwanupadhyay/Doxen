@@ -1,4 +1,4 @@
-# Doxen 🚀
+# Doxen-BRD Generator
 
 AI-powered Business Requirements Document generator that transforms scattered communications into professional, structured documentation.
 
@@ -70,7 +70,7 @@ Contributions are welcome! Please read our contributing guidelines before submit
 
 ## License
 
-MIT License - see [LICENSE](./LICENSE) for details
+MIT License - see [LICENSE] for details
 
 ## Contact
 
