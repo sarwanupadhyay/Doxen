@@ -22,31 +22,6 @@ Doxen automatically converts emails, Slack messages, meeting transcripts, and do
 - **AI:** Lovable AI Gateway (Gemini Flash) or OpenAI/Google AI
 - **Integrations:** Slack Web API
 
-## Quick Start
-```bash
-# Clone repository
-git clone <your-repo-url>
-cd doxen
-
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.example .env
-# Add your Supabase credentials
-
-# Run development server
-npm run dev
-```
-
-Visit `http://localhost:8080`
-
-## Documentation
-
-- **[User Flow](./docs/USER_FLOW.md)** - Complete user journey documentation
-- **[Setup Guide](./SETUP.md)** - Detailed installation and configuration
-- **[Architecture](./docs/ARCHITECTURE.md)** - System design and technical decisions
-
 ## How It Works
 
 1. **Add Sources** - Upload documents, import Slack channels, paste transcripts
@@ -64,17 +39,13 @@ Visit `http://localhost:8080`
 
 🚧 **In Development** - Active prototyping and feature development
 
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines before submitting PRs.
-
 ## License
 
 MIT License - see [LICENSE] for details
 
 ## Contact
 
-For questions or feedback, reach out at [your-email] or open an issue.
+For questions or feedback, reach out at [sarwanupadhyay19@gmail,com] or [borasarthak275@gmail.com].
 
 ---
 
