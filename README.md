@@ -20,8 +20,8 @@ Doxen automatically converts emails, Slack messages, meeting transcripts, and do
 
 ## 🗺️ Navigation Links
 
-- **[Documents Dashboard](/doxen/Document)** - Manage, view, manually refine, and export your generated BRDs.
-- **[Datasets Dashboard](/doxen/Dataset)** - Upload manual sources, paste transcripts, and manage your Slack and Gmail integrations.
+- **[Documents Dashboard](Documents)** - Manage, view, manually refine, and export your generated BRDs.
+- **[Datasets Dashboard](Dataset)** - Upload manual sources, paste transcripts, and manage your Slack and Gmail integrations.
 
 ## 🧭 First-Time User Navigation Guide
 
