@@ -1,51 +1,54 @@
-# Doxen-BRD Generator
+# Doxen - BRD Generator
 
 AI-powered Business Requirements Document generator that transforms scattered communications into professional, structured documentation.
 
 ## What is Doxen?
 
-Doxen automatically converts emails, Slack messages, meeting transcripts, and documents into comprehensive Business Requirements Documents (BRDs) - saving hours of manual work while improving accuracy and traceability.
+Doxen automatically converts emails, Slack messages, meeting transcripts, and documents into comprehensive Business Requirements Documents (BRDs) — saving hours of manual work while improving accuracy and traceability. 
 
-## Key Features
+## ✨ Key Features
 
-- **Multi-Source Integration** - Import from Slack channels, upload documents, paste meeting transcripts
-- **AI-Powered Extraction** - Automatically identifies and categorizes functional & non-functional requirements
-- **Complete Traceability** - Every requirement linked back to its source with confidence scores
-- **Natural Language Refinement** - Update documents with simple commands like "Add a security section"
-- **Professional Output** - Export as PDF or Markdown with standardized BRD structure
-- **Version Control** - Track all document iterations automatically
+- **Seamless Multi-Source Integration** - Direct integration with specified Slack channels and Gmail to automatically pull relevant communications without manual copy-pasting.
+- **One-Click OAuth Sign-In** - Fast, secure, and direct login utilizing OAuth authentication.
+- **Sleek, Responsive UI/UX** - A completely revamped, fast, and smooth interface that works perfectly across multiple devices (desktop, tablet, and mobile).
+- **Intuitive Dashboard** - Simplified navigation across all components and features, allowing you to manage sources and documents effortlessly.
+- **AI-Powered Extraction** - Automatically identifies and categorizes functional & non-functional requirements from the noise of daily communication.
+- **Complete Traceability** - Every requirement is linked back to its original source with confidence scores.
+- **Manual & Natural Language Refinement** - Take control of your document by manually refining the generated BRD using simple natural language commands (e.g., "Add a security section" or "Make the login requirements more detailed").
+- **Professional Output** - Export your finalized documents as PDFs or Markdown with a standardized, industry-ready BRD structure.
+- **Version Control** - Track all document iterations automatically.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend:** React 18, TypeScript, Tailwind CSS, shadcn/ui
-- **Backend:** Supabase (Auth, PostgreSQL, Storage, Edge Functions)
+- **Backend:** Supabase (OAuth, PostgreSQL, Storage, Edge Functions)
 - **AI:** Lovable AI Gateway (Gemini Flash) or OpenAI/Google AI
-- **Integrations:** Slack Web API
+- **Integrations:** Slack Web API, Gmail API
 
-## How It Works
+## 🚀 How It Works
 
-1. **Add Sources** - Upload documents, import Slack channels, paste transcripts
-2. **Extract Requirements** - AI analyzes all sources and extracts structured requirements
-3. **Generate BRD** - AI creates a professional Business Requirements Document
-4. **Refine & Export** - Use natural language to refine, then export as PDF/Markdown
+1. **Connect & Add Sources** - Authenticate via OAuth, connect your specified Slack channels and Gmail accounts, or upload manual transcripts/documents.
+2. **Extract Requirements** - Our AI analyzes all synced and uploaded sources to extract structured, categorized requirements.
+3. **Generate BRD** - Doxen instantly drafts a professional Business Requirements Document.
+4. **Refine Manually** - Use our interactive natural language feature to tweak, add, or rewrite specific sections until the document is perfect.
+5. **Export** - Download your finished BRD as a PDF or Markdown file.
 
-## Example Use Case
+## 📈 Example Use Case
 
-**Before Doxen:** 8-12 hours manually reading through 50+ Slack messages, 10 emails, and 3 meeting transcripts to create a BRD.
+**Before Doxen:** 8-12 hours manually reading through 50+ Slack messages, 10 emails, and 3 meeting transcripts to create a single BRD.
 
-**After Doxen:** 15 minutes to upload sources, extract requirements, and generate a professional BRD with full traceability.
+**After Doxen:** 15 minutes to sync Slack and Gmail, extract requirements, manually refine the draft using natural language, and generate a professional BRD with full source traceability.
 
-## Project Status
+## 🚧 Project Status
 
-🚧 **In Development** - Active prototyping and feature development
+**In Development** - Active prototyping, continuous feature enhancements, and UI optimization.
 
-## License
+## 📄 License
 
-MIT License - see [LICENSE] for details
+MIT License - see the `LICENSE` file for details.
 
-## Contact
+## 📬 Contact
 
-For questions or feedback, reach out at [sarwanupadhyay19@gmail.com] or [borasarthak275@gmail.com].
-
----
-
+For questions, feedback, or collaboration, reach out at:
+* [sarwanupadhyay19@gmail.com](mailto:sarwanupadhyay19@gmail.com) 
+* [borasarthak275@gmail.com](mailto:borasarthak275@gmail.com)
