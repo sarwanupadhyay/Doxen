@@ -53,7 +53,44 @@ Welcome to Doxen! Here is the step-by-step flow you will experience as a first-t
 
 **In Development** - 90% completed all essential features working!!.
 
-## 📄 License
+## � User Navigation Flowchart
+
+Here's a visual flowchart of the first-time user journey through Doxen:
+
+```mermaid
+flowchart TD
+    A["🚀 Start at Landing Page"] --> B["🔐 Authentication Flow"]
+    B --> C["👤 Set Up Username"]
+    C --> D["📊 Enter Dashboard & Open Project Workspace"]
+    D --> E["📁 Add Data Sources"]
+    E["📁 Add Data Sources<br/>Upload Documents | Paste Transcripts | Sync Apps"] --> F["⚙️ AI Processes Sources"]
+    F --> G["🔍 Extract Requirements"]
+    G --> H["📝 Generate Draft BRD"]
+    H --> I{"✏️ Refine BRD?"}
+    I -->|Yes| J["🛠️ Manually Refine using<br/>Natural Language"]
+    J --> K["📥 Export Document"]
+    I -->|No| K
+    K --> L["✅ Final BRD Delivered<br/>PDF or Markdown Export"]
+    L --> M["🎉 Complete"]
+    
+    style A fill:#4f46e5,stroke:#312e81,color:#fff
+    style B fill:#6366f1,stroke:#312e81,color:#fff
+    style C fill:#7c3aed,stroke:#5b21b6,color:#fff
+    style D fill:#8b5cf6,stroke:#6d28d9,color:#fff
+    style E fill:#a78bfa,stroke:#7c3aed,color:#fff
+    style F fill:#a78bfa,stroke:#7c3aed,color:#fff
+    style G fill:#8b5cf6,stroke:#6d28d9,color:#fff
+    style H fill:#7c3aed,stroke:#5b21b6,color:#fff
+    style I fill:#d97706,stroke:#92400e,color:#fff
+    style J fill:#f97316,stroke:#c2410c,color:#fff
+    style K fill:#06b6d4,stroke:#0e7490,color:#fff
+    style L fill:#10b981,stroke:#065f46,color:#fff
+    style M fill:#059669,stroke:#065f46,color:#fff
+```
+
+**Key Decision Point:** At step 7, users can choose to manually refine their BRD using natural language commands before exporting, or proceed directly to export if the generated document meets their requirements.
+
+## �📄 License
 
 MIT License - see the `LICENSE` file for details.
 
