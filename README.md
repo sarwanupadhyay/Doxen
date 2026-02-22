@@ -20,8 +20,8 @@ Doxen automatically converts emails, Slack messages, meeting transcripts, and do
 
 ## 🗺️ Navigation Links
 
-- **[Documents Dashboard](Documents)** - Manage, view, manually refine, and export your generated BRDs.
-- **[Datasets Dashboard](Dataset)** - Upload manual sources, paste transcripts, and manage your Slack and Gmail integrations.
+- **[Documents Folder](Documents)** - All the Essential documents for this product like the DFD,UFD,SRS.
+- **[Datasets Folder](Dataset)** - Dataset Used for Testing the Agent's Working.
 
 ## 🧭 First-Time User Navigation Guide
 
