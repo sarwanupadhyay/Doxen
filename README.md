@@ -18,20 +18,30 @@ Doxen automatically converts emails, Slack messages, meeting transcripts, and do
 - **Professional Output** - Export your finalized documents as PDFs or Markdown with a standardized, industry-ready BRD structure.
 - **Version Control** - Track all document iterations automatically.
 
+## 🗺️ Navigation Links
+
+- **[Documents Dashboard](/doxen/Document)** - Manage, view, manually refine, and export your generated BRDs.
+- **[Datasets Dashboard](/doxen/Dataset)** - Upload manual sources, paste transcripts, and manage your Slack and Gmail integrations.
+
+## 🧭 First-Time User Navigation Guide
+
+Welcome to Doxen! Here is the step-by-step flow you will experience as a first-time user:
+
+1. **Landing Page & Authentication**: Start at our landing page and proceed through the authentication flow.
+2. **Username Setup**: As a first-time user, you will be prompted to set up your unique username.
+3. **Dashboard & Workspace**: Enter your main Dashboard and open a new Project Workspace.
+4. **Add Data Sources**: Input your data by uploading documents, pasting transcripts, or syncing your integrated apps.
+5. **Extract Requirements**: The AI will process your sources to extract and structure the necessary requirements.
+6. **Generate BRD**: Doxen will automatically generate your drafted Business Requirements Document.
+7. **Refine BRD**: Review the draft and choose to manually refine the BRD if adjustments are needed.
+8. **Export**: Export your finalized file. Your polished document is now delivered!
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** React 18, TypeScript, Tailwind CSS, shadcn/ui
 - **Backend:** Supabase (OAuth, PostgreSQL, Storage, Edge Functions)
 - **AI:** Lovable AI Gateway (Gemini Flash) or OpenAI/Google AI
 - **Integrations:** Slack Web API, Gmail API
-
-## 🚀 How It Works
-
-1. **Connect & Add Sources** - Authenticate via OAuth, connect your specified Slack channels and Gmail accounts, or upload manual transcripts/documents.
-2. **Extract Requirements** - Our AI analyzes all synced and uploaded sources to extract structured, categorized requirements.
-3. **Generate BRD** - Doxen instantly drafts a professional Business Requirements Document.
-4. **Refine Manually** - Use our interactive natural language feature to tweak, add, or rewrite specific sections until the document is perfect.
-5. **Export** - Download your finished BRD as a PDF or Markdown file.
 
 ## 📈 Example Use Case
 
@@ -41,7 +51,7 @@ Doxen automatically converts emails, Slack messages, meeting transcripts, and do
 
 ## 🚧 Project Status
 
-**In Development** - 90% completed with all the essential features working.
+**In Development** - 90% completed all essential features working!!.
 
 ## 📄 License
 
